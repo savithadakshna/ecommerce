@@ -27,16 +27,14 @@
 
 <p style="font-size:100;"> 
 <font color="black"><b>
-<h4>At Shoppingzone, our vision is to be Earth's most customer centric company; to build a place where people can come to find and discover virtually anything they want to buy online. With Shoppingzone.in, we endeavor to build that same destination in India by giving customers more of what they want – vast selection, low prices, fast and reliable delivery, and a trusted and convenient online shopping experience – and provide sellers a world-class e-commerce platform. We are committed to ensure 100% Purchase Protection for your shopping done on Shoppingzone.in so that you can benefit from a safe and secure online ordering experience, convenient payment options such as cash on delivery, easy returns and enjoy a completely hassle free online shopping experience. </p>
+<h4>At Shoppingzone, our vision is to be Earth's most customer centric company; to build a place where people can come to find and discover virtually anything they want to buy online. With boutique collections, we endeavor to build that same destination in India by giving customers more of what they want a vast selection, low prices, fast and reliable delivery, and a trusted and convenient online shopping experience – and provide sellers a world-class e-commerce platform. We are committed to ensure 100% Purchase Protection for your shopping done on boutique collections so that you can benefit from a safe and secure online ordering experience, convenient payment options such as cash on delivery, easy returns and enjoy a completely hassle free online shopping experience. </p>
 
 
-<p  style="font-size:100;">We launched with Books and Movies & TV shows and have expanded our offerings to include the Kindle family of E-Readers, the Shoppingzone Fashion Store and various products under different categories. Customers can now buy products from popular brands across categories such as boutique collections and many more accessories at shoppingzone.in. Don’t forget to check out the shoppingzone Exclusives Store and also, shop for Today's Deals on shoppingzone and save big every day. On shoppingzone, shopping is not only about buying, it's also about gifting and through Gift a Smile you can give products online to charity through verified NGOs. </p>
+<p  style="font-size:100;">We launched with cool collections of boutique and have expanded our offerings to include the Kindle family of fashion zone, the Shoppingzone Fashion Store and various products under different categories. Customers can now buy products from popular brands across categories such as boutique collections and many more accessories at boutique collections. Dont forget to check out the shoppingzone Exclusives Store and also, shop for Today's Deals on shoppingzone and save big every day. On shoppingzone, shopping is not only about buying, it's also about gifting and through Gift a Smile you can give products online to charity through verified NGOs. </p>
 
 
-<p  style="font-size:100;">Customers can also shop our full selection of products using the shopping zone App for Android, iOS and Windows which offers customers a convenient, fast and secure way to search, browse, compare offers, and shop online quickly and easily, at anytime from anywhere. 
-It is still “Day 1” and we continue to relentlessly focus on using our investments in technology and innovation to transform the lives of our customers and all our partners. We strive to transform the way India shops and the way India sells.
+<p  style="font-size:100;"> Windows which offers customers a convenient, fast and secure way to search, browse, compare offers, and shop online quickly and easily, at anytime from anywhere. 
+It is still a ��Day and we continue to relentlessly focus on using our investments in technology and innovation to transform the lives of our customers and all our partners. We strive to transform the way India shops and the way India sells.
  </p></h4></b></font>
- 
- 
-</body>
+ </body>
 </html>

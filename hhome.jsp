@@ -16,17 +16,11 @@
       margin-bottom: 0;
       border-radius: 0;
     }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    
-  .carousel-inner img {
-      width: 80%; /* Set width to 100% */
-      margin: auto;
-      min-height:10px;
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+    margin: auto;
+    max-height:500px;
+      min-height:400px;
   }
 
   /* Hide the carousel text when the screen is less than 600 pixels wide */
@@ -35,6 +29,7 @@
       display: none;
     }
   }
+
   body {
     background-image: url("ddd.jpg");
     
@@ -43,6 +38,7 @@ body
 {
 padding-tp:40px;
 }
+
   </style>
 </head>
 <body>
@@ -55,13 +51,13 @@ padding-tp:40px;
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="logo.jsp">boutique</a>
+<a href="logo.jsp" class="pull-left"><img src="logo.png" height="80" width="80"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="hhome.jsp">Home</a></li>
         <li><a href="aboutus.jsp">About</a></li>
-        <li><a href="#">Projects</a></li>
+        <li><a href="#"> new collections</a></li>
         <li><a href="contact.jsp">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -72,10 +68,11 @@ padding-tp:40px;
 </nav>
 <div class="jumbotron">
 <div class="container text-center">
-<h1> BOUTIQUE COLLECTIONS</h1>
-<P> shop now at lowest cost with cool fashion collections</P>
+<h2> BOUTIQUE COLLECTIONS</h2>
+<P>shop now at lowest cost with cool fashion collections</P>
 <div class="btn-grp">
-<a href="" class="btn btn-lg btn-info">visit store</a>
+<a href="#" class="btn btn-lg btn-info">visit store</a>
+
 </div>
 </div>
 </div>
@@ -96,7 +93,7 @@ padding-tp:40px;
   
 <img src="sav.png" alt="flower" width="250" height="250">
         <div class="carousel-caption">
-          <h3>Sell $500</h3>
+          <h3>PRICE:20,500</h3>
           <p>FASHION BOUTIQUE</p>
         </div>
       </div>
@@ -105,7 +102,7 @@ padding-tp:40px;
       
         <img src="img_flower.jpg" alt="Flower"  width="250" height="250">
         <div class="carousel-caption">
-          <h3>More Sell $500</h3>
+          <h3>PRICE:5,000</h3>
           <p>COOL COLLECTIONS</p>
         </div>
       </div>
@@ -113,32 +110,32 @@ padding-tp:40px;
       
         <img src="rr.png" alt="Flower"  width="250" height="250">
         <div class="carousel-caption">
-          <h3>More Sell $500</h3>
-          <p>COOL COLLECTIONS</p>
+          <h3>PRICE:2,500</h3>
+          <p>ACCESSORIES</p>
         </div>
       </div>
       <div class="item">
       
         <img src="ll.png" alt="Flower"  width="250" height="250">
         <div class="carousel-caption">
-          <h3>More Sell $500</h3>
-          <p>COOL COLLECTIONS</p>
+          <h3>PRICE:1,000</h3>
+          <p>COOL BRACELETS</p>
         </div>
       </div>
       <div class="item">
       
         <img src="uu.png" alt="Flower"  width="250" height="250">
         <div class="carousel-caption">
-          <h3>More Sell $500</h3>
-          <p>COOL COLLECTIONS</p>
+          <h3>PRICE:15,000</h3>
+          <p>SAREES COLLECTION</p>
         </div>
       </div>
        <div class="item">
       
         <img src="oo.png" alt="Flower"  width="250" height="250">
         <div class="carousel-caption">
-          <h3>More Sell $500</h3>
-          <p>COOL COLLECTIONS</p>
+          <h3>PRICE:20,000</h3>
+          <p>COOL BOUTIQUE</p>
         </div>
       </div>
     </div>
@@ -155,50 +152,136 @@ padding-tp:40px;
 </div>
   
 <div class="container text-center">
-  <h3>What We Do</h3><br>
+  <h2><b>SHOP EXCLUSIVE BOTIQUE COLLECTIONS......!!!!!!!</b></h2><br>
   <div class="row">
     <div class="col-sm-3">
       <img src="top.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
+      <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
     </div>
     <div class="col-sm-3">
       <img src="lat.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>
+       <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
     </div>
      <div class="col-sm-3">
    <img src="c.jpg" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>
+       <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
       </div>
       <div class="col-sm-3">
       
        <img src="f.jpg" class="img-responsive" style="width:100%" alt="Image">
-       <p>Project 2</p>
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
     
     </div>
      <div class="col-sm-3">
       
        <img src="hh.png" class="img-responsive" style="width:100%" alt="Image">
-       <p>Project 2</p>
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
     </div>
      <div class="col-sm-3">
       
-       <img src="ee.jpg" class="img-responsive" style="width:100%" alt="Image">
-       <p>Project 2</p>
+       <img src="kkk.jpg" class="img-responsive" style="width:100%" alt="Image">
+       <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
   </div>
    <div class="col-sm-3">
       
        <img src="flo.jpg" class="img-responsive" style="width:100%" alt="Image">
-       <p>Project 2</p>
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+        <div class="col-sm-3">
+      
+       <img src="mn.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+             <div class="row"> 
+               <div class="col-sm-3">
+     <img src="dress.png" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+       <div class="row">
+       <div class="col-sm-3">
+      <img src="gud.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
        </div>
         <div class="col-sm-3">
       
        <img src="qqq.jpg" class="img-responsive" style="width:100%" alt="Image">
-       <p>Project 2</p>
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+      <div class="col-sm-3">
+      
+       <img src="kit.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>  
+       <div class="col-sm-3">
+      
+       <img src="cc.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div> 
+   <div class="col-sm-3">
+      
+       <img src="p.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>   
+       <div class="col-sm-3">
+      
+       <img src="ff.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div> 
+       <div class="col-sm-3">
+      
+       <img src="gr.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+        <div class="col-sm-3">
+      
+       <img src="cu.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div>
+        <div class="col-sm-3">
+      
+       <img src="hi.jpg" class="img-responsive" style="width:100%" alt="Image">
+        <div class="btn-grp">
+<a href="#" class="btn btn-lg btn-info">Buy Now</a>
+</div>
+       </div> 
+                         
+    </div>
+    </div>
        </div>
        </div>
-       </div>
-
-
-
-</body>
+      </body>
 </html>
