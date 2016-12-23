@@ -1,0 +1,2 @@
+to resolve jre system library:
+right click--->buildpath--> configure buildpath---->edit jre system library--->in execution environment select javaSE-1.8

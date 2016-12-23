@@ -1,0 +1,6 @@
+Publishing failed with multiple errors File not found: C:\Users\hp\Pictures\New folder\project\target\m2e-wtp\web-resources\META-INF\MANIFEST.MF. File not found: C:\Users\hp\Pictures\New folder\project\target\m2e-wtp\web-resources\META-INF\maven\com.niit\project\pom.properties. File not found: C:\Users\hp\Pictures\New folder\project\target\m2e-wtp\web-resources\META-INF\maven\com.niit\project\pom.xml. Could not delete C:/Users/hp/Pictures/New folder/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/project/WEB-INF/lib. May be locked by another process.
+
+
+to resolve :
+right click on project----> propreties---->maven----->java EE integration---->
+check enable project specific settings and disable maven archiver generated files.
