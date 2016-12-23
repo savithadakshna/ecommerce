@@ -1,14 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ecommerce</groupId>
-  <artifactId>ecomm</artifactId>
+  <groupId>com.niit</groupId>
+  <artifactId>ecommerce</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ecomm Maven Webapp</name>
+  <name>ecommerce Maven Webapp</name>
   <url>http://maven.apache.org</url>
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
   <dependency>
     <groupId>javax.servlet</groupId>
     <artifactId>jstl</artifactId>
@@ -137,9 +136,12 @@
             <groupId>org.hibernate.javax.persistence</groupId>
             <artifactId>hibernate-jpa-2.0-api</artifactId>
             <version>1.0.1.Final</version>
-        </dependency>      
-  </dependencies>
-  <build>
-    <finalName>ecomm</finalName>
-  </build>
-</project>
+        </dependency>
+
+       <dependency>
+       	<groupId>org.springframework.security</groupId>
+       	<artifactId>spring-security-core</artifactId>
+       	<version>4.0.4.RELEASE</version>
+       </dependency>
+         </dependencies>
+       </project>
