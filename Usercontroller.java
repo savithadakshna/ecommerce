@@ -13,24 +13,24 @@ import org.springframework.web.servlet.ModelAndView;
 import com.niit.DAO.UserDAO;
 import com.niit.DAOimpl.UserService;
 import com.niit.model.User;
-@Controller
+@Controller 
 public class Usercontroller {
 	private UserService userService;
 	@Autowired
 	(required=true)
 	UserDAO dao;
-	// Mapping of login spring mvc login form with model class
-		@RequestMapping(value = "login", method = RequestMethod.GET)
+		// Mapping of login spring mvc login form with model class
+		@RequestMapping(value = "loginpage", method = RequestMethod.GET)
 		public String submitLoginForm(@ModelAttribute("u") User u) {
 
 			//ModelAndView model = new ModelAndView("Login");
 			System.out.println("welcome to login");
-			return "Login";
+			return "Loginpage";
 		}
-		@RequestMapping(value = "login", method = RequestMethod.POST)
+		@RequestMapping(value = "loginpage", method = RequestMethod.POST)
 		public ModelAndView submitLoginForm(Model m) {
 			System.out.println("welcome");
-			ModelAndView model = new ModelAndView("Login", "u", new User());
+			ModelAndView model = new ModelAndView("Loginpage", "u", new User());
 			return model;
 		}
 @Qualifier
